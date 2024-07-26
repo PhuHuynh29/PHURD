@@ -1,0 +1,209 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+.crimson-text-regular {
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.font1{
+	font-family: "Crimson Text", serif;
+}
+.gachchan{
+	border-bottom: 2px solid #0B0A0B
+}
+.top-bar{
+	height: 0 auto; width: 100%
+}
+.top-bar a{
+	color: white; text-decoration: none
+}
+.top-bar a:hover{
+	color: #FFC113
+}
+.img1{
+	width: 20%;
+}
+
+.h7{
+	font-size: 10px; border-right: 1px white solid; padding-right: 10px; font-weight: bold
+}
+.banner{
+	border-bottom: 5px solid #0B0A0B
+}
+.nabar .navbar-nav .nav-item .nav-link{
+	padding: 10px 20px
+}
+
+.nabar .navbar-nav .nav-item .nav-link:hover{
+	color: #056CB6
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color: white; padding-top: 0; padding-bottom: 0; border-radius: 0px; font-weight: bold
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: #0B0A0B;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #FFC113
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+padding: 10px 0px; font-weight: bold
+}
+main{
+	min-height: 500px;
+}
+.gach-chan{
+	border-bottom: 2px solid #FFC113
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color: #FFC113
+}
+footer a{
+	color: white
+}
+footer a:hover{
+	color: #FFC113
+}
+.bottom-bar{
+	height: 50px; line-height: 50px
+}
+#service a{
+	text-decoration: none; color: #0B0A0B
+}
+#service a:hover{
+	color: #FFC113
+}
+#why{
+	width: 100%; min-height: 300px; background-image: url("../images/why.jpg"); background-repeat: no-repeat; background-size: cover;
+	background-position: center top
+}
+.hinh{
+	width: 100%; position: relative
+}
+.truoc{
+	position: absolute; left:0; top:0; padding: 8px; background-color:rgba(255,255,255,0.5)
+}
+.sau{
+	position: absolute; left:50%; top:0; padding: 8px; background-color: rgba(255,255,255,0.5)
+}
+#cam-nhan .noi-dung img{
+	width: 80px; height: 80px;
+}
+#cam-nhan .noi-dung{
+	padding: 30px; display: flex; justify-content: center; align-items: center; flex-direction: column
+}
+/*Doi mau cua thang mui cho slide hinh phan cam nhan*/
+#cn .owl-nav { position:absolute; left:0px; top:15%; width:100%; } /*Doi mui ten len xuong*/
+#cn .owl-nav [class*='owl-'] {
+	font-size:40px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #056CB6 /*Kich thuoc mui ten*/
+}
+
+#cn .owl-nav .owl-next{ position:absolute; right:5%;}
+#cn .owl-nav .owl-prev{ position:absolute; left:5%;}
+#cn .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#FFC113;
+      text-decoration: none; }
+.bando{
+	width: 100%; height: auto
+}
+.tagfooter{
+	border-bottom: 2px #FFFFFF solid
+}
+.anh{
+	height: 0 auto; width: 60%
+}
+.tagtext{
+width: 100%; height: 0 auto; margin-left: -10px; font-size: 12px
+}
+h6{
+	font-weight: bold; text-transform: uppercase
+}
+.menu{
+	margin: 0; padding: 0; list-style: none
+}
+.menu li a{
+	text-decoration: none; font-size: 11px
+}
+.menu li a:hover{
+	text-decoration: underline; color: white
+}
+.textsao{
+	font-size: 12px; font-weight: bold
+}
+.checkmark {
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+.textsao1{
+	font-size: 12px
+}
+.btn-them{
+	width: 150px; border: solid 1px white; border-radius: 0px
+}
+.btn-them:hover{
+	background-color: #0D0C0C; color: white; border: 1px solid white
+}
+.btn-den{
+	width: 150px; border: solid 1px white; border-radius: 0px; font-weight: bold; padding: 10px; font-size: 15px
+}
+.btn-den:hover{
+	background-color: white ; color: #0D0C0C; border: 1px solid #0D0C0C
+}
+.nut{
+	width: 100%; text-align: center
+}
+.btn-den1{
+	width: 300px; border: solid 1px white; border-radius: 0px; font-weight: bold; padding: 10px; font-size: 15px
+}
+.btn-den1:hover{
+	background-color: white ; color: #0D0C0C; border: 1px solid #0D0C0C
+}
+.btn-den2{
+	width: 100%; border: solid 1px white; border-radius: 0px; font-weight: bold; padding: 10px; font-size: 13px
+}
+.btn-den2:hover{
+	background-color: white ; color: #0D0C0C; border: 1px solid #0D0C0C
+}
+.chu-nho{
+	font-size: 10px; color: gray
+}
+#service h4{
+	font-size: 20px
+}
+.k-c{
+	height: 100px
+}
+#vitaminc a{
+	text-decoration: none; color: #0B0A0B
+}
+#vitaminc a:hover{
+	color: #FFC113
+}
+#vitaminc h4{
+	font-size: 20px
+}
+#mun a{
+	text-decoration: none; color: #0B0A0B
+}
+#mun a:hover{
+	color: #FFC113
+}
+#mun h4{
+	font-size: 20px
+}
+#camket a{
+	 color: #0B0A0B; font-weight: bold
+}
+#camket a:hover{
+	color: #FFC113
+}
+#camket h4{
+	font-size: 18px; height: 50px
+}
+#camket p{
+	font-size: 14px; height: 60px
+}
